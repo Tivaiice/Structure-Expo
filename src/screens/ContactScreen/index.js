@@ -6,12 +6,12 @@ import Tabbar from '../../components/Tabbar';
 const Contact = props => {
     return (        
         <View style={{flex : 1}}>
-            <SafeAreaView style={{flex:1}}>
+            <SafeAreaView style={{flex:10, backgroundColor : '#FFD166'}}>
                 <View style={styles.boxtxt}>
                     <Text>Contact</Text>
                 </View>
             </SafeAreaView>
-            <View style={{ flex: 0.09 }}>
+            <View style={{ flex: 1}}>
                 <Tabbar navigation={props.navigation} col={"Contact"} />
             </View>
         </View>

@@ -6,12 +6,12 @@ import Tabbar from '../../components/Tabbar';
 const Home = props => {
     return (        
         <View style={{flex : 1}}>
-            <SafeAreaView style={{flex:1}}>
+            <SafeAreaView style={{flex:10 ,backgroundColor : '#DAFF66'}}>
                 <View style={styles.boxtxt}>
                     <Text>Home</Text>
                 </View>
             </SafeAreaView>
-            <View style={{ flex: 0.09 }}>
+            <View style={{ flex: 1}}>
                 <Tabbar navigation={props.navigation} col={"Home"} />
             </View>
         </View>
